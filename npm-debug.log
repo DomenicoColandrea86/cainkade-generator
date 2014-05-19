@@ -1,0 +1,181 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.21/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   './' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose publish [ './' ]
+5 verbose cache add [ './', null ]
+6 verbose cache add name=undefined spec="./" args=["./",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: './',
+7 verbose parsed url   path: './',
+7 verbose parsed url   href: './' }
+8 silly lockFile 0ee6c175- ./
+9 verbose lock ./ /Users/dom/.npm/0ee6c175-.lock
+10 verbose tar pack [ '/var/folders/33/56d071k53yq4j99jpyyy2_pm0000gp/T/npm-15473-CWheFPYA/1400535627494-0.38393367850221694/tmp.tgz',
+10 verbose tar pack   './' ]
+11 verbose tarball /var/folders/33/56d071k53yq4j99jpyyy2_pm0000gp/T/npm-15473-CWheFPYA/1400535627494-0.38393367850221694/tmp.tgz
+12 verbose folder ./
+13 silly lockFile 04cb2bca-tar tar://./
+14 verbose lock tar://./ /Users/dom/.npm/04cb2bca-tar.lock
+15 silly lockFile 73a66d9f-7494-0-38393367850221694-tmp-tgz tar:///var/folders/33/56d071k53yq4j99jpyyy2_pm0000gp/T/npm-15473-CWheFPYA/1400535627494-0.38393367850221694/tmp.tgz
+16 verbose lock tar:///var/folders/33/56d071k53yq4j99jpyyy2_pm0000gp/T/npm-15473-CWheFPYA/1400535627494-0.38393367850221694/tmp.tgz /Users/dom/.npm/73a66d9f-7494-0-38393367850221694-tmp-tgz.lock
+17 silly lockFile 04cb2bca-tar tar://./
+18 silly lockFile 04cb2bca-tar tar://./
+19 silly lockFile 73a66d9f-7494-0-38393367850221694-tmp-tgz tar:///var/folders/33/56d071k53yq4j99jpyyy2_pm0000gp/T/npm-15473-CWheFPYA/1400535627494-0.38393367850221694/tmp.tgz
+20 silly lockFile 73a66d9f-7494-0-38393367850221694-tmp-tgz tar:///var/folders/33/56d071k53yq4j99jpyyy2_pm0000gp/T/npm-15473-CWheFPYA/1400535627494-0.38393367850221694/tmp.tgz
+21 verbose tar unpack /var/folders/33/56d071k53yq4j99jpyyy2_pm0000gp/T/npm-15473-CWheFPYA/1400535627494-0.38393367850221694/tmp.tgz
+22 silly lockFile 6daf25f3-7494-0-38393367850221694-package tar:///var/folders/33/56d071k53yq4j99jpyyy2_pm0000gp/T/npm-15473-CWheFPYA/1400535627494-0.38393367850221694/package
+23 verbose lock tar:///var/folders/33/56d071k53yq4j99jpyyy2_pm0000gp/T/npm-15473-CWheFPYA/1400535627494-0.38393367850221694/package /Users/dom/.npm/6daf25f3-7494-0-38393367850221694-package.lock
+24 silly lockFile 73a66d9f-7494-0-38393367850221694-tmp-tgz tar:///var/folders/33/56d071k53yq4j99jpyyy2_pm0000gp/T/npm-15473-CWheFPYA/1400535627494-0.38393367850221694/tmp.tgz
+25 verbose lock tar:///var/folders/33/56d071k53yq4j99jpyyy2_pm0000gp/T/npm-15473-CWheFPYA/1400535627494-0.38393367850221694/tmp.tgz /Users/dom/.npm/73a66d9f-7494-0-38393367850221694-tmp-tgz.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm extractEntry README.md
+29 silly gunzTarPerm extractEntry app/index.js
+30 silly gunzTarPerm extractEntry app/templates/.npmignore
+31 silly gunzTarPerm extractEntry app/templates/_Gruntfile-f.js
+32 silly gunzTarPerm extractEntry app/templates/_Gruntfile.js
+33 silly gunzTarPerm extractEntry app/templates/_.htaccess
+34 silly gunzTarPerm extractEntry app/templates/_.jshintrc
+35 silly gunzTarPerm extractEntry app/templates/scss/_foundation.scss
+36 silly gunzTarPerm extractEntry app/templates/scss/_main.scss
+37 silly gunzTarPerm extractEntry app/templates/scss/_mixins.scss
+38 silly gunzTarPerm extractEntry app/templates/scss/_normalize.scss
+39 silly gunzTarPerm extractEntry app/templates/scss/_style-foundation.scss
+40 silly gunzTarPerm extractEntry app/templates/scss/_style.scss
+41 silly gunzTarPerm extractEntry app/templates/scss/_variables.scss
+42 silly gunzTarPerm extractEntry app/templates/_.editorconfig
+43 silly gunzTarPerm extractEntry app/templates/_.bowerrc
+44 silly gunzTarPerm extractEntry app/templates/_config.rb
+45 silly gunzTarPerm extractEntry app/templates/_index.html
+46 silly gunzTarPerm extractEntry app/templates/_package.json
+47 silly gunzTarPerm extractEntry app/templates/favicon.ico
+48 silly gunzTarPerm extractEntry app/templates/js/_jquery-1.10.2.min.js
+49 silly gunzTarPerm extractEntry app/templates/js/_main.js
+50 silly gunzTarPerm extractEntry app/templates/js/_modernizr-2.6.2.min.js
+51 silly gunzTarPerm extractEntry app/templates/js/_respond.js
+52 silly gunzTarPerm extractEntry app/templates/_bower.json
+53 silly lockFile 6daf25f3-7494-0-38393367850221694-package tar:///var/folders/33/56d071k53yq4j99jpyyy2_pm0000gp/T/npm-15473-CWheFPYA/1400535627494-0.38393367850221694/package
+54 silly lockFile 6daf25f3-7494-0-38393367850221694-package tar:///var/folders/33/56d071k53yq4j99jpyyy2_pm0000gp/T/npm-15473-CWheFPYA/1400535627494-0.38393367850221694/package
+55 silly lockFile 73a66d9f-7494-0-38393367850221694-tmp-tgz tar:///var/folders/33/56d071k53yq4j99jpyyy2_pm0000gp/T/npm-15473-CWheFPYA/1400535627494-0.38393367850221694/tmp.tgz
+56 silly lockFile 73a66d9f-7494-0-38393367850221694-tmp-tgz tar:///var/folders/33/56d071k53yq4j99jpyyy2_pm0000gp/T/npm-15473-CWheFPYA/1400535627494-0.38393367850221694/tmp.tgz
+57 verbose tar pack [ '/Users/dom/.npm/generator-cainkade/0.0.0/package.tgz',
+57 verbose tar pack   '/var/folders/33/56d071k53yq4j99jpyyy2_pm0000gp/T/npm-15473-CWheFPYA/1400535627494-0.38393367850221694/package' ]
+58 verbose tarball /Users/dom/.npm/generator-cainkade/0.0.0/package.tgz
+59 verbose folder /var/folders/33/56d071k53yq4j99jpyyy2_pm0000gp/T/npm-15473-CWheFPYA/1400535627494-0.38393367850221694/package
+60 silly lockFile 6daf25f3-7494-0-38393367850221694-package tar:///var/folders/33/56d071k53yq4j99jpyyy2_pm0000gp/T/npm-15473-CWheFPYA/1400535627494-0.38393367850221694/package
+61 verbose lock tar:///var/folders/33/56d071k53yq4j99jpyyy2_pm0000gp/T/npm-15473-CWheFPYA/1400535627494-0.38393367850221694/package /Users/dom/.npm/6daf25f3-7494-0-38393367850221694-package.lock
+62 silly lockFile 1118ca8d-rator-cainkade-0-0-0-package-tgz tar:///Users/dom/.npm/generator-cainkade/0.0.0/package.tgz
+63 verbose lock tar:///Users/dom/.npm/generator-cainkade/0.0.0/package.tgz /Users/dom/.npm/1118ca8d-rator-cainkade-0-0-0-package-tgz.lock
+64 silly lockFile 6daf25f3-7494-0-38393367850221694-package tar:///var/folders/33/56d071k53yq4j99jpyyy2_pm0000gp/T/npm-15473-CWheFPYA/1400535627494-0.38393367850221694/package
+65 silly lockFile 6daf25f3-7494-0-38393367850221694-package tar:///var/folders/33/56d071k53yq4j99jpyyy2_pm0000gp/T/npm-15473-CWheFPYA/1400535627494-0.38393367850221694/package
+66 silly lockFile 1118ca8d-rator-cainkade-0-0-0-package-tgz tar:///Users/dom/.npm/generator-cainkade/0.0.0/package.tgz
+67 silly lockFile 1118ca8d-rator-cainkade-0-0-0-package-tgz tar:///Users/dom/.npm/generator-cainkade/0.0.0/package.tgz
+68 silly lockFile 526f4092-generator-cainkade-0-0-0-package /Users/dom/.npm/generator-cainkade/0.0.0/package
+69 verbose lock /Users/dom/.npm/generator-cainkade/0.0.0/package /Users/dom/.npm/526f4092-generator-cainkade-0-0-0-package.lock
+70 silly lockFile 526f4092-generator-cainkade-0-0-0-package /Users/dom/.npm/generator-cainkade/0.0.0/package
+71 silly lockFile 526f4092-generator-cainkade-0-0-0-package /Users/dom/.npm/generator-cainkade/0.0.0/package
+72 verbose tar unpack /Users/dom/.npm/generator-cainkade/0.0.0/package.tgz
+73 silly lockFile d9bbf565-generator-cainkade-0-0-0-package tar:///Users/dom/.npm/generator-cainkade/0.0.0/package
+74 verbose lock tar:///Users/dom/.npm/generator-cainkade/0.0.0/package /Users/dom/.npm/d9bbf565-generator-cainkade-0-0-0-package.lock
+75 silly lockFile 1118ca8d-rator-cainkade-0-0-0-package-tgz tar:///Users/dom/.npm/generator-cainkade/0.0.0/package.tgz
+76 verbose lock tar:///Users/dom/.npm/generator-cainkade/0.0.0/package.tgz /Users/dom/.npm/1118ca8d-rator-cainkade-0-0-0-package-tgz.lock
+77 silly gunzTarPerm modes [ '755', '644' ]
+78 silly gunzTarPerm extractEntry package.json
+79 silly gunzTarPerm extractEntry README.md
+80 silly gunzTarPerm extractEntry app/index.js
+81 silly gunzTarPerm extractEntry app/templates/.npmignore
+82 silly gunzTarPerm extractEntry app/templates/_Gruntfile-f.js
+83 silly gunzTarPerm extractEntry app/templates/_Gruntfile.js
+84 silly gunzTarPerm extractEntry app/templates/_.htaccess
+85 silly gunzTarPerm extractEntry app/templates/_.jshintrc
+86 silly gunzTarPerm extractEntry app/templates/scss/_foundation.scss
+87 silly gunzTarPerm extractEntry app/templates/scss/_main.scss
+88 silly gunzTarPerm extractEntry app/templates/scss/_mixins.scss
+89 silly gunzTarPerm extractEntry app/templates/scss/_normalize.scss
+90 silly gunzTarPerm extractEntry app/templates/scss/_style-foundation.scss
+91 silly gunzTarPerm extractEntry app/templates/scss/_style.scss
+92 silly gunzTarPerm extractEntry app/templates/scss/_variables.scss
+93 silly gunzTarPerm extractEntry app/templates/_.editorconfig
+94 silly gunzTarPerm extractEntry app/templates/_.bowerrc
+95 silly gunzTarPerm extractEntry app/templates/_config.rb
+96 silly gunzTarPerm extractEntry app/templates/_index.html
+97 silly gunzTarPerm extractEntry app/templates/_package.json
+98 silly gunzTarPerm extractEntry app/templates/favicon.ico
+99 silly gunzTarPerm extractEntry app/templates/js/_jquery-1.10.2.min.js
+100 silly gunzTarPerm extractEntry app/templates/js/_main.js
+101 silly gunzTarPerm extractEntry app/templates/js/_modernizr-2.6.2.min.js
+102 silly gunzTarPerm extractEntry app/templates/js/_respond.js
+103 silly gunzTarPerm extractEntry app/templates/_bower.json
+104 silly lockFile d9bbf565-generator-cainkade-0-0-0-package tar:///Users/dom/.npm/generator-cainkade/0.0.0/package
+105 silly lockFile d9bbf565-generator-cainkade-0-0-0-package tar:///Users/dom/.npm/generator-cainkade/0.0.0/package
+106 silly lockFile 1118ca8d-rator-cainkade-0-0-0-package-tgz tar:///Users/dom/.npm/generator-cainkade/0.0.0/package.tgz
+107 silly lockFile 1118ca8d-rator-cainkade-0-0-0-package-tgz tar:///Users/dom/.npm/generator-cainkade/0.0.0/package.tgz
+108 verbose chmod /Users/dom/.npm/generator-cainkade/0.0.0/package.tgz 644
+109 verbose chown /Users/dom/.npm/generator-cainkade/0.0.0/package.tgz [ 502, 20 ]
+110 silly lockFile 0ee6c175- ./
+111 silly lockFile 0ee6c175- ./
+112 silly publish { name: 'generator-cainkade',
+112 silly publish   version: '0.0.0',
+112 silly publish   description: 'A custom Yeoman generator taylored specifically for the Cainkade Dev team to quickly scaffold out a project using common project structure, build script, and development tools to help speed up workflow and also because it\'s awesome',
+112 silly publish   license: 'MIT',
+112 silly publish   main: 'app/index.js',
+112 silly publish   repository:
+112 silly publish    { type: 'git',
+112 silly publish      url: 'git://github.com/DomenicoColandrea86/generator-cainkade' },
+112 silly publish   author:
+112 silly publish    { name: 'Domenico Colandrea',
+112 silly publish      email: 'me@domenicocolandrea.com',
+112 silly publish      url: 'https://github.com/DomenicoColandrea86' },
+112 silly publish   engines: { node: '>=0.10.0' },
+112 silly publish   files: [ 'app' ],
+112 silly publish   keywords: [ 'yeoman-generator', 'cainkade', 'generator-cainkade' ],
+112 silly publish   dependencies:
+112 silly publish    { 'yeoman-generator': '~0.16.0',
+112 silly publish      chalk: '~0.4.0',
+112 silly publish      yosay: '^0.1.0' },
+112 silly publish   peerDependencies: { yo: '>=1.0.0' },
+112 silly publish   readme: '# generator-cainkade\n\n#### A custom yeoman generator to help scaffold out a typical web project with the structure that we use \n                                                       \n###[generator-cainkade on NPMJS.org ](https://www.npmjs.org/package/generator-cainkade "generator-cainkade")\n\n',
+112 silly publish   readmeFilename: 'README.md',
+112 silly publish   bugs: { url: 'https://github.com/DomenicoColandrea86/generator-cainkade/issues' },
+112 silly publish   _id: 'generator-cainkade@0.0.0',
+112 silly publish   dist: { shasum: '51527cb28870d33420e5d56054556a610c8b06fc' },
+112 silly publish   _from: './' }
+113 verbose url raw generator-cainkade
+114 verbose url resolving [ 'https://registry.npmjs.org/', './generator-cainkade' ]
+115 verbose url resolved https://registry.npmjs.org/generator-cainkade
+116 info trying registry request attempt 1 at 17:40:27
+117 http PUT https://registry.npmjs.org/generator-cainkade
+118 http 201 https://registry.npmjs.org/generator-cainkade
+119 verbose url raw generator-cainkade
+120 verbose url resolving [ 'https://registry.npmjs.org/', './generator-cainkade' ]
+121 verbose url resolved https://registry.npmjs.org/generator-cainkade
+122 info trying registry request attempt 1 at 17:40:28
+123 http GET https://registry.npmjs.org/generator-cainkade
+124 http 200 https://registry.npmjs.org/generator-cainkade
+125 error publish fail Cannot publish over existing version.
+125 error publish fail Update the 'version' field in package.json and try again.
+125 error publish fail
+125 error publish fail If the previous version was published in error, see:
+125 error publish fail     npm help unpublish
+125 error publish fail
+125 error publish fail To automatically increment version numbers, see:
+125 error publish fail     npm help version
+126 error System Darwin 13.0.0
+127 error command "/usr/local/Cellar/node/0.10.21/bin/node" "/usr/local/bin/npm" "publish" "./"
+128 error cwd /Users/dom/sites/cainkade-generator
+129 error node -v v0.10.21
+130 error npm -v 1.3.11
+131 error code EPUBLISHCONFLICT
+132 verbose exit [ 1, true ]

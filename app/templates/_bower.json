@@ -1,6 +1,6 @@
 {
   "name": "<%= appName %>",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "<%= appAuthor %>",
   "dependencies": {
     "fastclick": "~1.0.1",<% if (foundation) { %>
