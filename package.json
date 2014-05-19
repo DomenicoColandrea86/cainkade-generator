@@ -1,7 +1,7 @@
 {
   "name": "generator-cainkade",
   "version": "0.0.0",
-  "description": "Yeoman generator",
+  "description": "A custom Yeoman generator taylored specifically for the Cainkade Dev team to quickly scaffold out a project using common project structure, build script, and development tools to help speed up workflow and also because it's awesome",
   "license": "MIT",
   "main": "app/index.js",
   "repository": "DomenicoColandrea86/generator-cainkade",
@@ -13,22 +13,16 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "scripts": {
-    "test": "mocha"
-  },
   "files": [
     "app"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator", "cainkade", "generator-cainkade"
   ],
   "dependencies": {
     "yeoman-generator": "~0.16.0",
     "chalk": "~0.4.0",
     "yosay": "^0.1.0"
-  },
-  "devDependencies": {
-    "mocha": "*"
   },
   "peerDependencies": {
     "yo": ">=1.0.0"

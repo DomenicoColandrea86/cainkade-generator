@@ -8,6 +8,7 @@ $experimental-support-for-svg: true;
 // ----------------------------------- Individual stylesheets
 
 @import "normalize";
+@import "foundation";
 @import "variables";
 @import "mixins";
 @import "main";
