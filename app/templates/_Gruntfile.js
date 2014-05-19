@@ -8,6 +8,8 @@ module.exports = function(grunt) {
     // load all grunt tasks
     require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
+    require('time-grunt')(grunt);
+
     grunt.initConfig({
 
         // compass and scss preprocessor for all the awesome mixins
@@ -43,6 +45,7 @@ module.exports = function(grunt) {
         jshint: {
             options: {
                 jshintrc: '.jshintrc',
+                reporter: require('jshint-stylish'),
                 "force": true
             },
             all: [
