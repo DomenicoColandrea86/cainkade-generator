@@ -1,0 +1,24 @@
+
+{
+    "curly": true,
+    "eqeqeq": true,
+    "immed": true,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "sub": true,
+    "undef": true,
+    "loopfunc" : true,
+    "boss": true,
+    "eqnull": true,
+    "node": true,
+    "laxcomma": true,
+    "predef": [
+        "Modernizr",
+        "$",
+        "jQuery",
+        "document",
+        "window",
+        "FastClick"
+    ]
+}
