@@ -168,7 +168,7 @@ module.exports = function(grunt) {
           dist: {
             src: "assets/js/main.js"
           }
-        }
+        },
 
         // watch for changes and trigger compass, autoprefixer, jshint, uglify and livereload
         watch: {
@@ -197,6 +197,6 @@ module.exports = function(grunt) {
     grunt.registerTask('images', ['imagemin']);
 
     // build task
-    grunt.registerTask('build', ['compass', 'autoprefixer', 'cssmin', 'removelogging', 'jshint', 'uglify', 'imagemin', 'mkdir', 'copy:tmp', 'cache-busting:js', 'cache-busting:css', 'clean:build', 'copy:build', 'clean:tmp']);
+    grunt.registerTask('build', ['compass', 'autoprefixer', 'cssmin', 'jshint', 'uglify', 'removelogging', 'imagemin', 'mkdir', 'copy:tmp', 'cache-busting:js', 'cache-busting:css', 'clean:build', 'copy:build', 'clean:tmp']);
 
 };
