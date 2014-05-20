@@ -10,15 +10,11 @@ var chalk = require('chalk');
 
 // cainkade generator oh yea
 var CainkadeGenerator = module.exports = function CainkadeGenerator(args, options, config) {
-
   yeoman.generators.Base.apply(this, arguments);
-
   this.on('end', function() {
       this.log.write('\n\n\nCongrats! You\'r all set to start working on your project. \n\n\n');
   });
-
   this.pkg = JSON.parse(this.readFileAsString(path.join(__dirname, '../package.json')));
-
 };
 
 util.inherits(CainkadeGenerator, yeoman.generators.Base);

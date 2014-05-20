@@ -1,6 +1,6 @@
 {
   "name": "<%= appName %>",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": "<%= appAuthor %>",
   "dependencies": {},
   "devDependencies": {
@@ -17,6 +17,7 @@
     "grunt-contrib-clean": "~0.5.0",
     "jshint-stylish": "~0.1.3",
     "time-grunt": "~0.2.0",
+    "grunt-remove-logging": "~0.2.0",
     "matchdep": "~0.3.0",
     "grunt-mkdir": "~0.1.1",
     "grunt-cache-busting": "0.0.7"
